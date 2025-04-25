@@ -1,6 +1,6 @@
 {
-  "name": "@nolemonnomelon/react-native-controlled-mentions",
-  "version": "3.0.0-alpha.4",
+  "name": "react-native-controlled-mentions",
+  "version": "v1.0.3",
   "description": "Fully controlled React Native mentions component",
   "keywords": [
     "react",
@@ -22,7 +22,7 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nolemonnomelon/react-native-controlled-mentions.git"
+    "url": "git+https://github.com/xh3087/react-native-controlled-mentions.git"
   },
   "author": "David Tabaka <dabakovich@gmail.com>",
   "license": "MIT",
