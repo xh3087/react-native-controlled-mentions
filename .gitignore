@@ -1,7 +1,0 @@
-# node.js
-#
-.idea
-node_modules/
-dist
-npm-debug.log
-yarn-error.log
