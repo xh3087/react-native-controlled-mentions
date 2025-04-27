@@ -1,5 +1,8 @@
 ## react-native-controlled-mentions [![npm version][npm-image]][npm-url]
 
+Fixed the issue where the new version of rn cannot update the cursor after assigning or selecting @ (onSelect).
+Adding a custom cursor in the malfunctioning versioon of RN can solve the problem by passing in the custom cursor.
+
 Add to your `TextInput` ability to highlight mentions, hashtags or other custom patterns. It can:
 
 * Gracefully render formatted text directly in React Native `TextInput` component
@@ -472,23 +475,3 @@ const renderValue: FC = (
   return <Text>{parts.map(renderPart)}</Text>;
 };
 ```
-
-## To Do
-
-* ~~Add support for different text formatting (e.g. URLs)~~
-* ~~Add more customizations~~ DONE
-* ~~Add ability to handle few mention types ("#", "@" etc)~~ DONE
-
-## Known Issues
-
-* Mention name regex accepts white spaces (e.g. `{name: ' ', value: 1}`)
-* ~~Keyboard auto-correction not working if suggested word has the same length~~ FIXED
-* ~~Text becomes transparent when setting custom font size in TextInput~~ FIXED
-
-## Support Me
-
-<a href="https://www.buymeacoffee.com/dabakovich" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-[npm-image]: https://img.shields.io/npm/v/react-native-controlled-mentions
-
-[npm-url]: https://npmjs.org/package/react-native-controlled-mentions
